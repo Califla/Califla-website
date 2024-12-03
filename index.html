@@ -3,10 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Birthday Card</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+            width: 300px;
+        }
+        .card h1 {
+            font-size: 24px;
+            color: #e91e63;
+        }
+        .card p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e91e63;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .btn:hover {
+            background-color: #d81b60;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is my first GitHub-hosted website!</p>
+    <div class="card">
+        <img src="https://live.staticflickr.com/65535/54180922682_03fb34f809_b.jpg" alt="Birthday Icon">
+        <h1>Happy Birthday!</h1>
+        <p>Hiba is wishing you all the best on your special day!</p>
+        <a href="https://www.youtube.com/watch?v=u50UCzk0u7Y&pp=ygUgaGFwcHkgYmlydGhkYXkgaXRzIHlvdXIgYmlydGhkYXk%3D" class="btn">Celebrate</a>
+    </div>
 </body>
 </html>
